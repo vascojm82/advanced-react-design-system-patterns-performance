@@ -1,1 +1,1 @@
-React Advanced Concepts
+Advanced React: Design System, Design Patterns, Performance
