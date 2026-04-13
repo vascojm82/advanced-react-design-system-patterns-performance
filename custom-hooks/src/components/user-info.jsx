@@ -1,6 +1,11 @@
 // import { useCurrentUser } from "./current-user.hook";
 // import { useUser } from "./user.hook";
 // import { useResource } from "./resource.hook";
+
+// useCallback is a React Hook that caches a function definition between re-renders. It is primarily a 
+// performance optimization tool used to prevent unnecessary re-renders of child components that rely 
+// on referential equality.
+
 import { useCallback } from "react";
 import { useDataSource } from "./data-source.hook";
 import axios from "axios";
